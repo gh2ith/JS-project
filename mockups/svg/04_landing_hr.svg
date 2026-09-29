@@ -1,0 +1,378 @@
+<svg width="1440" height="2020" viewBox="0 0 1440 2020" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .hero-shadow { filter: drop-shadow(0 20px 40px rgba(15, 23, 42, 0.10)) drop-shadow(0 2px 5px rgba(15, 23, 42, 0.04)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+
+    <linearGradient id="hr-hero-pill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EFF6FF" />
+      <stop offset="100%" stop-color="#DBEAFE" />
+    </linearGradient>
+
+    <linearGradient id="card-hero-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Canvas Background -->
+  <rect width="1440" height="2020" fill="#F8FAFC" />
+
+  <!-- Background Ambience Pattern -->
+  <circle cx="150" cy="180" r="280" fill="#2563EB" opacity="0.03" />
+  <circle cx="1300" cy="240" r="320" fill="#DC2626" opacity="0.03" />
+
+  <!-- ==========================================================================
+       SECTION 1: AUTHENTICATED HR NAVBAR
+       ========================================================================== -->
+  <g id="Navbar" transform="translate(150, 24)">
+    <rect width="1140" height="70" rx="18" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    
+    <!-- Logo -->
+    <g transform="translate(24, 17)">
+      <rect width="36" height="36" rx="9" fill="#2563EB" />
+      <path d="M10 18L15 23L26 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="46" y="25" class="font-sans" font-size="19" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+
+    <!-- Navigation Links -->
+    <g transform="translate(300, 26)">
+      <text x="0" y="15" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">Home</text>
+      <circle cx="18" cy="25" r="2.5" fill="#2563EB" />
+      <text x="60" y="15" class="font-sans" font-size="14" font-weight="500" fill="#475569">Employee Directory</text>
+      <text x="215" y="15" class="font-sans" font-size="14" font-weight="500" fill="#475569">Leave Approvals</text>
+      <text x="350" y="15" class="font-sans" font-size="14" font-weight="500" fill="#475569">Task Review</text>
+      <text x="465" y="15" class="font-sans" font-size="14" font-weight="500" fill="#475569">Feedback Inbox</text>
+    </g>
+
+    <!-- Authenticated HR Admin Profile Pill -->
+    <g transform="translate(880, 14)">
+      <rect width="236" height="42" rx="21" fill="#F8FAFC" stroke="#E2E8F0" />
+      
+      <!-- Avatar -->
+      <circle cx="21" cy="21" r="16" fill="#0F172A" />
+      <text x="21" y="25" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">HR</text>
+      
+      <!-- Name & Role -->
+      <text x="44" y="18" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">Alex Vance</text>
+      <rect x="44" y="23" width="64" height="14" rx="7" fill="#FEF2F2" />
+      <text x="76" y="33" class="font-sans" font-size="8" font-weight="700" fill="#DC2626" text-anchor="middle">HR ADMIN</text>
+
+      <!-- Logout Button -->
+      <g transform="translate(168, 7)">
+        <rect width="60" height="28" rx="8" fill="#FEE2E2" />
+        <text x="30" y="18" class="font-sans" font-size="10" font-weight="700" fill="#DC2626" text-anchor="middle">Sign Out</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 2: EXECUTIVE HR HERO
+       ========================================================================== -->
+  <g id="HR-Hero" transform="translate(150, 130)">
+    
+    <!-- Announcement Pill -->
+    <g transform="translate(375, 0)">
+      <rect width="390" height="34" rx="17" fill="url(#hr-hero-pill)" stroke="#BFDBFE" stroke-width="1" />
+      <circle cx="20" cy="17" r="4.5" fill="#2563EB" />
+      <text x="34" y="18" class="font-sans" font-size="12" font-weight="700" fill="#1D4ED8" dominant-baseline="central">• Administrative Console • Full CRUD Active</text>
+    </g>
+
+    <!-- Main Executive Greeting -->
+    <text x="570" y="80" class="font-sans" font-size="44" font-weight="800" fill="#0F172A" text-anchor="middle" letter-spacing="-1">Welcome back, Alex Vance!</text>
+    <text x="570" y="116" class="font-sans" font-size="15" font-weight="400" fill="#475569" text-anchor="middle">Director of HR &amp; Administration • System Administrator • Full Permissions</text>
+
+    <!-- HR Quick Action CTAs -->
+    <g transform="translate(400, 160)">
+      <rect width="170" height="46" rx="12" fill="#2563EB" class="btn-shadow"/>
+      <text x="85" y="24" class="font-sans" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">+ Add New Employee</text>
+
+      <rect x="180" width="160" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="260" y="24" class="font-sans" font-size="13" font-weight="600" fill="#0F172A" text-anchor="middle" dominant-baseline="central">Review Leaves (4)</text>
+    </g>
+
+    <!-- Floating HR Overview Card -->
+    <g transform="translate(130, 240)">
+      <rect width="880" height="210" rx="20" fill="url(#card-hero-glow)" stroke="#E2E8F0" stroke-width="1.5" class="hero-shadow" />
+      
+      <g transform="translate(40, 36)">
+        <!-- Stat 1: Total Staff -->
+        <g transform="translate(0, 0)">
+          <rect width="250" height="136" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+          <rect x="16" y="16" width="38" height="38" rx="9" fill="#EFF6FF" />
+          <g transform="translate(25, 25)">
+            <circle cx="10" cy="7" r="4.5" fill="#2563EB" />
+            <path d="M4 17C4 13.8 6.8 12.8 10 12.8C13.2 12.8 16 13.8 16 17" stroke="#2563EB" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </g>
+          <text x="66" y="30" class="font-sans" font-size="11" font-weight="700" fill="#64748B">TOTAL STAFF</text>
+          <text x="66" y="52" class="font-sans" font-size="22" font-weight="800" fill="#0F172A">148 Active</text>
+          <rect x="16" y="74" width="105" height="22" rx="6" fill="#EFF6FF" />
+          <text x="68" y="89" class="font-sans" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">+12 this month</text>
+          <text x="16" y="118" class="font-sans" font-size="11" font-weight="600" fill="#2563EB">Manage directory →</text>
+        </g>
+
+        <!-- Stat 2: Pending Approvals -->
+        <g transform="translate(275, 0)">
+          <rect width="250" height="136" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+          <rect x="16" y="16" width="38" height="38" rx="9" fill="#ECFDF5" />
+          <g transform="translate(25, 25)">
+            <rect x="2" y="3" width="16" height="14" rx="3" stroke="#059669" stroke-width="1.8" fill="none"/>
+            <line x1="2" y1="7" x2="18" y2="7" stroke="#059669" stroke-width="1.5" />
+          </g>
+          <text x="66" y="30" class="font-sans" font-size="11" font-weight="700" fill="#64748B">PENDING LEAVES</text>
+          <text x="66" y="52" class="font-sans" font-size="22" font-weight="800" fill="#0F172A">4 Requests</text>
+          <rect x="16" y="74" width="112" height="22" rx="6" fill="#FEF2F2" />
+          <text x="72" y="89" class="font-sans" font-size="10" font-weight="700" fill="#DC2626" text-anchor="middle">2 Need Attention</text>
+          <text x="16" y="118" class="font-sans" font-size="11" font-weight="600" fill="#059669">Approve requests →</text>
+        </g>
+
+        <!-- Stat 3: Feedback Inbox -->
+        <g transform="translate(550, 0)">
+          <rect width="250" height="136" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+          <rect x="16" y="16" width="38" height="38" rx="9" fill="#FEF2F2" />
+          <g transform="translate(25, 25)">
+            <rect x="2" y="5" width="20" height="15" rx="3" stroke="#DC2626" stroke-width="2" fill="none"/>
+            <path d="M2 6L12 13L22 6" stroke="#DC2626" stroke-width="1.8"/>
+          </g>
+          <text x="66" y="30" class="font-sans" font-size="11" font-weight="700" fill="#64748B">FEEDBACK INBOX</text>
+          <text x="66" y="52" class="font-sans" font-size="22" font-weight="800" fill="#0F172A">2 New</text>
+          <text x="16" y="89" class="font-sans" font-size="11" font-weight="500" fill="#475569">Submitted via footer</text>
+          <text x="16" y="118" class="font-sans" font-size="11" font-weight="600" fill="#DC2626">Inspect inbox →</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 3: HR EXECUTIVE ADMINISTRATION MODULES
+       ========================================================================== -->
+  <g id="HR-Services" transform="translate(150, 755)">
+    
+    <!-- Section Title -->
+    <g transform="translate(470, 0)">
+      <rect width="200" height="26" rx="13" fill="#EFF6FF" />
+      <text x="100" y="17" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">HR MANAGEMENT SUITE</text>
+    </g>
+    <text x="570" y="60" class="font-sans" font-size="32" font-weight="800" fill="#0F172A" text-anchor="middle">Executive Administration Modules</text>
+    <text x="570" y="86" class="font-sans" font-size="14" font-weight="400" fill="#64748B" text-anchor="middle">Direct administrative control over employee profiles, company policies, task reviews, and leaves.</text>
+
+    <!-- Grid of 6 HR Modules -->
+    <!-- Module 1: Employee Directory & Provisioning -->
+    <g transform="translate(0, 120)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#EFF6FF" />
+      <g transform="translate(39, 35)">
+        <circle cx="13" cy="8" r="5" fill="#2563EB" />
+        <path d="M5 21C5 17.5 8.5 16 13 16C17.5 16 21 17.5 21 21" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Directory &amp; Provisioning</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">Manage 148 accounts, filter by dept,</tspan>
+        <tspan x="28" dy="20">and exclusively provision new staff</tspan>
+        <tspan x="28" dy="20">credentials with zero public signup.</tspan>
+      </text>
+      <rect x="28" y="180" width="155" height="34" rx="8" fill="#2563EB" />
+      <text x="105" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Manage Staff →</text>
+    </g>
+
+    <!-- Module 2: Leave Approvals -->
+    <g transform="translate(390, 120)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#ECFDF5" />
+      <g transform="translate(39, 35)">
+        <rect x="3" y="4" width="20" height="18" rx="3" stroke="#059669" stroke-width="2" fill="none"/>
+        <line x1="3" y1="9" x2="23" y2="9" stroke="#059669" stroke-width="1.8" />
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Leave Approvals Desk</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">One-click approve or reject 4 pending</tspan>
+        <tspan x="28" dy="20">employee leave requests with instant</tspan>
+        <tspan x="28" dy="20">balance synchronization.</tspan>
+      </text>
+      <rect x="28" y="180" width="150" height="34" rx="8" fill="#059669" />
+      <text x="103" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Review Leaves (4) →</text>
+    </g>
+
+    <!-- Module 3: Task Delegation -->
+    <g transform="translate(780, 120)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#FFFBEB" />
+      <g transform="translate(39, 35)">
+        <path d="M4 13L9 18L21 6" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Task Delegation &amp; Review</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">Assign tasks to engineering teams,</tspan>
+        <tspan x="28" dy="20">monitor Kanban board columns, and</tspan>
+        <tspan x="28" dy="20">review completed deliverables.</tspan>
+      </text>
+      <rect x="28" y="180" width="145" height="34" rx="8" fill="#D97706" />
+      <text x="100" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Task Board →</text>
+    </g>
+
+    <!-- Module 4: Policies Editor -->
+    <g transform="translate(0, 380)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#EEF2FF" />
+      <g transform="translate(39, 35)">
+        <path d="M4 4H20V22H4V4Z" stroke="#4F46E5" stroke-width="2" fill="none" rx="2"/>
+        <line x1="8" y1="9" x2="16" y2="9" stroke="#4F46E5" stroke-width="1.8" />
+        <line x1="8" y1="13" x2="16" y2="13" stroke="#4F46E5" stroke-width="1.8" />
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Company Policies Editor</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">Maintain JSON company rulebook:</tspan>
+        <tspan x="28" dy="20">update code of conduct, remote policy,</tspan>
+        <tspan x="28" dy="20">work hours, and team guidelines.</tspan>
+      </text>
+      <rect x="28" y="180" width="135" height="34" rx="8" fill="#4F46E5" />
+      <text x="95" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Edit Policies →</text>
+    </g>
+
+    <!-- Module 5: Zoom Meetings Manager -->
+    <g transform="translate(390, 380)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#EFF6FF" />
+      <g transform="translate(39, 35)">
+        <rect x="2" y="6" width="13" height="13" rx="3" stroke="#2563EB" stroke-width="2" fill="none"/>
+        <path d="M15 10L21 6V19L15 15V10Z" fill="#2563EB"/>
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Zoom Meetings Manager</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">Schedule all-hands calls, department</tspan>
+        <tspan x="28" dy="20">briefings, and configure secure Zoom</tspan>
+        <tspan x="28" dy="20">meeting access links.</tspan>
+      </text>
+      <rect x="28" y="180" width="140" height="34" rx="8" fill="#2563EB" />
+      <text x="98" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Manage Calls →</text>
+    </g>
+
+    <!-- Module 6: Feedback Inbox -->
+    <g transform="translate(780, 380)">
+      <rect width="360" height="230" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow"/>
+      <rect x="28" y="24" width="48" height="48" rx="12" fill="#FEF2F2" />
+      <g transform="translate(39, 35)">
+        <rect x="2" y="5" width="20" height="15" rx="3" stroke="#DC2626" stroke-width="2" fill="none"/>
+        <path d="M2 6L12 13L22 6" stroke="#DC2626" stroke-width="1.8"/>
+      </g>
+      <text x="28" y="104" class="font-sans" font-size="18" font-weight="700" fill="#0F172A">Feedback Inbox Desk</text>
+      <text x="28" y="130" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="28" dy="0">Inspect and reply to employee</tspan>
+        <tspan x="28" dy="20">messages submitted through the public</tspan>
+        <tspan x="28" dy="20">footer contact form.</tspan>
+      </text>
+      <rect x="28" y="180" width="160" height="34" rx="8" fill="#DC2626" />
+      <text x="108" y="197" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">View Inbox (2 New) →</text>
+    </g>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 4: ABOUT PLATFORM CARD
+       ========================================================================== -->
+  <g id="About-Section" transform="translate(150, 1400)">
+    <rect width="1140" height="170" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <g transform="translate(40, 32)">
+      <rect width="130" height="26" rx="13" fill="#EFF6FF" />
+      <text x="65" y="17" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">ABOUT PLATFORM</text>
+      <text x="0" y="60" class="font-sans" font-size="22" font-weight="800" fill="#0F172A">Empowering Organizations Through People-First Technology</text>
+      <text x="0" y="88" class="font-sans" font-size="13" font-weight="400" fill="#64748B">
+        <tspan x="0" dy="0">Bridgeway HR is built to replace disconnected spreadsheets with an agile, synchronized workspace.</tspan>
+        <tspan x="0" dy="20">All records, leave requests, tasks, and company policies stay organized locally in your browser session.</tspan>
+      </text>
+    </g>
+
+    <g transform="translate(930, 30)">
+      <rect width="170" height="110" rx="16" fill="#F8FAFC" stroke="#E2E8F0" />
+      <text x="85" y="44" class="font-sans" font-size="32" font-weight="800" fill="#2563EB" text-anchor="middle">100%</text>
+      <text x="85" y="70" class="font-sans" font-size="12" font-weight="700" fill="#0F172A" text-anchor="middle">LocalStorage Sync</text>
+      <text x="85" y="90" class="font-sans" font-size="11" font-weight="600" fill="#059669" text-anchor="middle">✓ Zero backend required</text>
+    </g>
+  </g>
+
+  <!-- ==========================================================================
+       SECTION 5: INTEGRATED FOOTER WITH CONTACT & MAP (BOOTSTRAP GRID)
+       ========================================================================== -->
+  <g id="Footer-Section" transform="translate(0, 1610)">
+    <rect width="1440" height="410" fill="#0F172A" />
+
+    <g transform="translate(150, 45)">
+      
+      <!-- Column 1: Brand & Contact Info -->
+      <g transform="translate(0, 0)">
+        <g transform="translate(0, 0)">
+          <rect width="32" height="32" rx="8" fill="#2563EB" />
+          <path d="M8 16L13 21L22 11" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="42" y="23" class="font-sans" font-size="18" font-weight="800" fill="#FFFFFF">Bridgeway<tspan fill="#60A5FA">HR</tspan></text>
+        </g>
+        <text x="0" y="62" class="font-sans" font-size="13" font-weight="400" fill="#94A3B8">Comprehensive Human Resource Management Platform.</text>
+        
+        <g transform="translate(0, 88)">
+          <text x="0" y="16" class="font-sans" font-size="11" font-weight="700" fill="#64748B" letter-spacing="1">HEADQUARTERS ADDRESS</text>
+          <text x="0" y="36" class="font-sans" font-size="13" font-weight="400" fill="#F8FAFC">King Hussein Business Park, Bldg 23, Amman, Jordan</text>
+          
+          <text x="0" y="72" class="font-sans" font-size="11" font-weight="700" fill="#64748B" letter-spacing="1">DIRECT CONTACT</text>
+          <text x="0" y="92" class="font-sans" font-size="13" font-weight="400" fill="#F8FAFC">Phone: +962 6 500 0000</text>
+          <text x="0" y="112" class="font-sans" font-size="13" font-weight="400" fill="#F8FAFC">Email: hr@bridgeway.corp</text>
+        </g>
+      </g>
+
+      <!-- Column 2: Feedback Form Container (Pre-filled for Alex Vance) -->
+      <g transform="translate(390, 0)">
+        <text x="0" y="20" class="font-sans" font-size="16" font-weight="700" fill="#FFFFFF">Employee Feedback Form</text>
+        <text x="0" y="40" class="font-sans" font-size="12" font-weight="400" fill="#94A3B8">Send inquiries or feedback directly to HR local storage:</text>
+        
+        <g transform="translate(0, 52)">
+          <rect width="330" height="34" rx="8" fill="#1E293B" stroke="#334155" />
+          <text x="14" y="22" class="font-sans" font-size="12" fill="#FFFFFF">Alex Vance (#HR-1001)</text>
+          
+          <rect y="44" width="330" height="34" rx="8" fill="#1E293B" stroke="#334155" />
+          <text x="14" y="66" class="font-sans" font-size="12" fill="#FFFFFF">alex.vance@bridgeway.corp</text>
+
+          <rect y="88" width="330" height="48" rx="8" fill="#1E293B" stroke="#334155" />
+          <text x="14" y="110" class="font-sans" font-size="12" fill="#64748B">Write your message or inquiry...</text>
+
+          <rect y="146" width="150" height="34" rx="8" fill="#2563EB" />
+          <text x="75" y="163" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Submit Feedback</text>
+        </g>
+      </g>
+
+      <!-- Column 3: Interactive Location Map -->
+      <g transform="translate(780, 0)">
+        <text x="0" y="20" class="font-sans" font-size="16" font-weight="700" fill="#FFFFFF">Office Location Map</text>
+        <text x="0" y="40" class="font-sans" font-size="12" font-weight="400" fill="#94A3B8">Amman headquarters container:</text>
+
+        <g transform="translate(0, 52)">
+          <rect width="360" height="180" rx="14" fill="#1E293B" stroke="#334155" />
+          
+          <!-- Stylized Map Grid Lines -->
+          <path d="M0 60H360M0 120H360M90 0V180M210 0V180M290 0V180" stroke="#334155" stroke-width="1" />
+          <path d="M40 180L160 80L240 120L330 30" stroke="#2563EB" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+          
+          <!-- Location Pin Marker -->
+          <g transform="translate(160, 68)">
+            <circle cx="0" cy="0" r="14" fill="#EF4444" />
+            <circle cx="0" cy="0" r="5" fill="#FFFFFF" />
+            <path d="M-6 8L0 20L6 8" fill="#EF4444" />
+          </g>
+          
+          <!-- Info Label -->
+          <rect x="90" y="98" width="150" height="24" rx="6" fill="#0F172A" stroke="#334155" />
+          <text x="165" y="110" class="font-sans" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">Bridgeway Innovation Park</text>
+
+          <!-- External Link Button -->
+          <rect x="20" y="138" width="320" height="30" rx="8" fill="none" stroke="#334155" />
+          <text x="180" y="153" class="font-sans" font-size="11" font-weight="600" fill="#94A3B8" text-anchor="middle" dominant-baseline="central">Open in Google Maps ↗</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Bottom Copyright Divider -->
+    <path d="M150 340H1290" stroke="#334155" stroke-width="1" />
+    <text x="150" y="375" class="font-sans" font-size="12" font-weight="400" fill="#64748B">© 2026 Bridgeway HR Management System • Junior Team Project</text>
+    <text x="1290" y="375" class="font-sans" font-size="12" font-weight="500" fill="#94A3B8" text-anchor="end">HTML5 • Bootstrap 5 • Vanilla JS • LocalStorage</text>
+  </g>
+</svg>

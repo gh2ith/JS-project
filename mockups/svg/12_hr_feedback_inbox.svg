@@ -1,0 +1,214 @@
+<svg width="1440" height="1500" viewBox="0 0 1440 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .text-figma-title { font-weight: 700; fill: #1E293B; font-size: 18px; }
+      .text-figma-meta { font-weight: 500; fill: #64748B; font-size: 12px; }
+      .text-badge-num { font-weight: 700; fill: #FFFFFF; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .annotation-text { font-weight: 600; fill: #334155; font-size: 13px; }
+      .annotation-line { stroke: #94A3B8; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .measure-text { font-weight: 600; fill: #64748B; font-size: 11px; text-anchor: end; }
+      .measure-line { stroke: #CBD5E1; stroke-width: 1; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1440" height="1500" fill="#F8FAFC" />
+
+  <!-- Figma Header Bar -->
+  <g id="Figma-Header" transform="translate(60, 24)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" rx="4" fill="#F24E1E" />
+      <rect x="8" y="0" width="8" height="8" rx="4" fill="#FF7262" />
+      <rect x="0" y="8" width="8" height="8" rx="4" fill="#A259FF" />
+      <circle cx="12" cy="12" r="4" fill="#1ABCFE" />
+      <rect x="0" y="16" width="8" height="8" rx="4" fill="#0ACF83" />
+    </g>
+    <text x="28" y="15" class="font-sans text-figma-title">Figma Wireframe • HR Employee Feedback &amp; Contact Inbox</text>
+
+    <g transform="translate(780, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta" text-anchor="middle">Footer Contact Form Storage</text>
+      <path d="M0 16V28M-4 24L0 28L4 24" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(1080, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta">LocalStorage Review Inbox</text>
+      <path d="M-10 7H-40" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 12-Column Grid -->
+  <g id="Figma-Grid-Columns" opacity="0.20">
+    <rect x="180" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="270" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="360" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="450" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="540" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="630" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="720" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="810" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="900" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="990" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1080" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1170" y="70" width="70" height="1400" fill="#EFF6FF" />
+  </g>
+
+  <!-- Top Navigation Bar -->
+  <g id="Navbar" transform="translate(180, 64)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    <g transform="translate(24, 16)">
+      <rect width="34" height="34" rx="8" fill="#2563EB" />
+      <path d="M10 17L15 22L24 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="44" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+    <g transform="translate(300, 25)">
+      <text x="0" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">← Back to Home</text>
+      <text x="140" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Employee Directory</text>
+      <text x="290" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Leave Approvals</text>
+      <text x="430" y="14" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">Feedback Inbox (2)</text>
+    </g>
+    <g transform="translate(930, 14)">
+      <circle cx="18" cy="18" r="16" fill="#0F172A" />
+      <text x="18" y="22" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">HR</text>
+      <text x="42" y="23" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Alex Vance</text>
+    </g>
+  </g>
+
+  <!-- Page Header -->
+  <g transform="translate(180, 160)">
+    <rect width="160" height="26" rx="13" fill="#FEF2F2" />
+    <text x="80" y="17" class="font-sans" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">EMPLOYEE INBOX</text>
+    <text x="0" y="60" class="font-sans" font-size="28" font-weight="800" fill="#0F172A">Employee Feedback &amp; Inquiries</text>
+    <text x="0" y="84" class="font-sans" font-size="14" font-weight="400" fill="#64748B">Centralized inbox of all messages and suggestions submitted via the website footer contact form.</text>
+  </g>
+
+  <!-- Filter Pills Bar -->
+  <g transform="translate(180, 270)">
+    <rect width="1080" height="60" rx="16" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <g transform="translate(20, 12)">
+      <rect width="130" height="36" rx="8" fill="#2563EB" />
+      <text x="65" y="22" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">All Messages (5)</text>
+
+      <rect x="140" width="100" height="36" rx="8" fill="#EFF6FF" />
+      <text x="190" y="22" class="font-sans" font-size="12" font-weight="700" fill="#2563EB" text-anchor="middle">Unread (2)</text>
+
+      <rect x="250" width="110" height="36" rx="8" fill="#F1F5F9" />
+      <text x="305" y="22" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Reviewed (2)</text>
+
+      <rect x="370" width="100" height="36" rx="8" fill="#F1F5F9" />
+      <text x="420" y="22" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Archived (1)</text>
+    </g>
+
+    <!-- Clear Filter -->
+    <g transform="translate(940, 12)">
+      <rect width="120" height="36" rx="8" fill="#F1F5F9" />
+      <text x="60" y="22" class="font-sans" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Mark All Read</text>
+    </g>
+  </g>
+
+  <!-- Feedback Cards Stack -->
+  <g id="Feedback-List" transform="translate(180, 350)">
+    
+    <!-- Item 1 (New / Unread) -->
+    <g transform="translate(0, 0)">
+      <rect width="1080" height="180" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" class="card-shadow" />
+      
+      <g transform="translate(32, 24)">
+        <circle cx="20" cy="20" r="16" fill="#2563EB" />
+        <text x="20" y="24" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SJ</text>
+        <text x="48" y="18" class="font-sans" font-size="15" font-weight="800" fill="#0F172A">Sarah Jenkins</text>
+        <text x="48" y="34" class="font-sans" font-size="12" font-weight="500" fill="#64748B">sarah.jenkins@bridgeway.corp • Technology Dept</text>
+
+        <rect x="860" width="90" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE" />
+        <text x="905" y="15" class="font-sans" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">• NEW UNREAD</text>
+        <text x="1016" y="15" class="font-sans" font-size="11" fill="#94A3B8" text-anchor="end">Today, 11:20 AM</text>
+      </g>
+
+      <g transform="translate(32, 75)">
+        <text x="0" y="18" class="font-sans" font-size="14" font-weight="700" fill="#0F172A">Subject: Suggestion for Hybrid Work Equipment Stipend</text>
+        <text x="0" y="38" class="font-sans" font-size="12" font-weight="400" fill="#475569">"Hi HR team, thank you for the updated policies. Would it be possible to include an ergonomics monitor stipend</text>
+        <text x="0" y="54" class="font-sans" font-size="12" font-weight="400" fill="#475569">for engineers working remotely 2 days per week? Looking forward to hearing your thoughts."</text>
+      </g>
+
+      <!-- Action Buttons -->
+      <g transform="translate(32, 134)">
+        <rect width="120" height="30" rx="8" fill="#2563EB" />
+        <text x="60" y="19" class="font-sans" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">✓ Mark Reviewed</text>
+
+        <rect x="130" width="90" height="30" rx="8" fill="#F1F5F9" />
+        <text x="175" y="19" class="font-sans" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Reply Email</text>
+
+        <rect x="230" width="80" height="30" rx="8" fill="#F1F5F9" />
+        <text x="270" y="19" class="font-sans" font-size="11" font-weight="600" fill="#DC2626" text-anchor="middle">Archive</text>
+      </g>
+    </g>
+
+    <!-- Item 2 (New / Unread) -->
+    <g transform="translate(0, 205)">
+      <rect width="1080" height="180" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 24)">
+        <circle cx="20" cy="20" r="16" fill="#0D9488" />
+        <text x="20" y="24" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">MS</text>
+        <text x="48" y="18" class="font-sans" font-size="15" font-weight="800" fill="#0F172A">Michael Scott</text>
+        <text x="48" y="34" class="font-sans" font-size="12" font-weight="500" fill="#64748B">michael.scott@bridgeway.corp • Sales Dept</text>
+
+        <rect x="860" width="90" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE" />
+        <text x="905" y="15" class="font-sans" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">• NEW UNREAD</text>
+        <text x="1016" y="15" class="font-sans" font-size="11" fill="#94A3B8" text-anchor="end">Yesterday, 4:45 PM</text>
+      </g>
+
+      <g transform="translate(32, 75)">
+        <text x="0" y="18" class="font-sans" font-size="14" font-weight="700" fill="#0F172A">Subject: Zoom Meeting Scheduling for Regional Sales Team</text>
+        <text x="0" y="38" class="font-sans" font-size="12" font-weight="400" fill="#475569">"Could HR please configure an all-hands Zoom room for our Q4 sales summit on Friday? We have 14 attendees</text>
+        <text x="0" y="54" class="font-sans" font-size="12" font-weight="400" fill="#475569">joining from remote regional branches."</text>
+      </g>
+
+      <g transform="translate(32, 134)">
+        <rect width="120" height="30" rx="8" fill="#2563EB" />
+        <text x="60" y="19" class="font-sans" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">✓ Mark Reviewed</text>
+
+        <rect x="130" width="90" height="30" rx="8" fill="#F1F5F9" />
+        <text x="175" y="19" class="font-sans" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Reply Email</text>
+
+        <rect x="230" width="80" height="30" rx="8" fill="#F1F5F9" />
+        <text x="270" y="19" class="font-sans" font-size="11" font-weight="600" fill="#DC2626" text-anchor="middle">Archive</text>
+      </g>
+    </g>
+
+    <!-- Item 3 (Reviewed) -->
+    <g transform="translate(0, 410)">
+      <rect width="1080" height="160" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 24)">
+        <circle cx="20" cy="20" r="16" fill="#7C3AED" />
+        <text x="20" y="24" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">DM</text>
+        <text x="48" y="18" class="font-sans" font-size="15" font-weight="800" fill="#0F172A">David Miller</text>
+        <text x="48" y="34" class="font-sans" font-size="12" font-weight="500" fill="#64748B">david.miller@bridgeway.corp • Product Design</text>
+
+        <rect x="860" width="90" height="22" rx="11" fill="#ECFDF5" stroke="#A7F3D0" />
+        <text x="905" y="15" class="font-sans" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">✓ REVIEWED</text>
+        <text x="1016" y="15" class="font-sans" font-size="11" fill="#94A3B8" text-anchor="end">Sep 25, 2:10 PM</text>
+      </g>
+
+      <g transform="translate(32, 75)">
+        <text x="0" y="18" class="font-sans" font-size="14" font-weight="700" fill="#0F172A">Subject: Appreciation for the New White &amp; Blue Design System</text>
+        <text x="0" y="38" class="font-sans" font-size="12" font-weight="400" fill="#475569">"The new modern executive blue and white UI looks significantly clearer and faster than the old dark theme!"</text>
+      </g>
+
+      <g transform="translate(32, 118)">
+        <text x="0" y="16" class="font-sans" font-size="11" font-weight="600" fill="#059669">✓ Reviewed and responded by Alex Vance</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Annotation -->
+  <g transform="translate(1280, 480)">
+    <path d="M-10 0H20" class="annotation-line" />
+    <text x="28" y="4" class="font-sans annotation-text">Feedback Inbox</text>
+    <text x="28" y="20" class="font-sans" font-size="11" fill="#64748B">Real-time sync from</text>
+    <text x="28" y="36" class="font-sans" font-size="11" fill="#64748B">footer contact form</text>
+  </g>
+</svg>

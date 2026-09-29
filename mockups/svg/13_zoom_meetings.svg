@@ -1,0 +1,207 @@
+<svg width="1440" height="1450" viewBox="0 0 1440 1450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .text-figma-title { font-weight: 700; fill: #1E293B; font-size: 18px; }
+      .text-figma-meta { font-weight: 500; fill: #64748B; font-size: 12px; }
+      .text-badge-num { font-weight: 700; fill: #FFFFFF; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .annotation-text { font-weight: 600; fill: #334155; font-size: 13px; }
+      .annotation-line { stroke: #94A3B8; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .measure-text { font-weight: 600; fill: #64748B; font-size: 11px; text-anchor: end; }
+      .measure-line { stroke: #CBD5E1; stroke-width: 1; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1440" height="1450" fill="#F8FAFC" />
+
+  <!-- Figma Header Bar -->
+  <g id="Figma-Header" transform="translate(60, 24)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" rx="4" fill="#F24E1E" />
+      <rect x="8" y="0" width="8" height="8" rx="4" fill="#FF7262" />
+      <rect x="0" y="8" width="8" height="8" rx="4" fill="#A259FF" />
+      <circle cx="12" cy="12" r="4" fill="#1ABCFE" />
+      <rect x="0" y="16" width="8" height="8" rx="4" fill="#0ACF83" />
+    </g>
+    <text x="28" y="15" class="font-sans text-figma-title">Figma Wireframe • Virtual Zoom Meetings Hub</text>
+
+    <g transform="translate(780, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta" text-anchor="middle">Meeting Scheduling &amp; Attendance</text>
+      <path d="M0 16V28M-4 24L0 28L4 24" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(1080, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta">Direct Video Launch Links</text>
+      <path d="M-10 7H-40" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 12-Column Grid -->
+  <g id="Figma-Grid-Columns" opacity="0.20">
+    <rect x="180" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="270" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="360" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="450" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="540" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="630" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="720" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="810" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="900" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="990" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="1080" y="70" width="70" height="1350" fill="#EFF6FF" />
+    <rect x="1170" y="70" width="70" height="1350" fill="#EFF6FF" />
+  </g>
+
+  <!-- Top Navigation Bar -->
+  <g id="Navbar" transform="translate(180, 64)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    <g transform="translate(24, 16)">
+      <rect width="34" height="34" rx="8" fill="#2563EB" />
+      <path d="M10 17L15 22L24 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="44" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+    <g transform="translate(300, 25)">
+      <text x="0" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">← Back to Home</text>
+      <text x="140" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">My Services</text>
+      <text x="260" y="14" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">Zoom Meetings</text>
+      <text x="400" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Leave Requests</text>
+    </g>
+    <g transform="translate(930, 14)">
+      <circle cx="18" cy="18" r="16" fill="#2563EB" />
+      <text x="18" y="22" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SJ</text>
+      <text x="42" y="23" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Sarah Jenkins</text>
+    </g>
+  </g>
+
+  <!-- Page Header -->
+  <g transform="translate(180, 160)">
+    <rect width="160" height="26" rx="13" fill="#EFF6FF" />
+    <text x="80" y="17" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">VIRTUAL CALLS HUB</text>
+    <text x="0" y="60" class="font-sans" font-size="28" font-weight="800" fill="#0F172A">Scheduled Zoom Meetings</text>
+    <text x="0" y="84" class="font-sans" font-size="14" font-weight="400" fill="#64748B">Coordinate virtual briefings, sprint retrospectives, and 1-on-1 performance consultations.</text>
+
+    <!-- Schedule Action Button (HR & Leads) with Vector Camera Icon -->
+    <g transform="translate(870, 20)">
+      <rect width="210" height="46" rx="12" fill="#2563EB" class="btn-shadow"/>
+      <g transform="translate(24, 15)">
+        <rect x="0" y="3" width="12" height="11" rx="2" stroke="#FFFFFF" stroke-width="1.8" fill="none"/>
+        <path d="M12 6.5L17 3.5V13.5L12 10.5V6.5Z" fill="#FFFFFF"/>
+        <text x="26" y="13" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF">Schedule Zoom Call</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Meetings List Stack -->
+  <g id="Meetings-List" transform="translate(180, 280)">
+    
+    <!-- Meeting 1 (Live Today) -->
+    <g transform="translate(0, 0)">
+      <rect width="1080" height="200" rx="20" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" class="card-shadow" />
+      
+      <g transform="translate(32, 28)">
+        <rect width="90" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+        <circle cx="12" cy="12" r="3.5" fill="#059669" />
+        <text x="22" y="16" class="font-sans" font-size="10" font-weight="700" fill="#059669">STARTING SOON</text>
+
+        <text x="105" y="17" class="font-sans" font-size="13" font-weight="700" fill="#2563EB">• Today, 3:00 PM – 4:00 PM (GMT+3)</text>
+        <text x="960" y="17" class="font-sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Room ID: 842 1920 4410</text>
+      </g>
+
+      <g transform="translate(32, 70)">
+        <text x="0" y="22" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Weekly Sprint Retrospective &amp; HR Policy Discussion</text>
+        <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Review of submitted frontend task deliverables and Q4 holiday schedule alignment with HR leadership.</text>
+      </g>
+
+      <!-- Attendees & Join CTA -->
+      <g transform="translate(32, 134)">
+        <text x="0" y="18" class="font-sans" font-size="11" font-weight="700" fill="#64748B">HOST: Alex Vance (HR) • ATTENDEES:</text>
+        
+        <!-- Attendee Badges -->
+        <g transform="translate(220, 0)">
+          <rect width="96" height="26" rx="13" fill="#EFF6FF" />
+          <text x="48" y="17" class="font-sans" font-size="10" font-weight="600" fill="#2563EB" text-anchor="middle">Sarah Jenkins</text>
+
+          <rect x="106" width="96" height="26" rx="13" fill="#EFF6FF" />
+          <text x="154" y="17" class="font-sans" font-size="10" font-weight="600" fill="#2563EB" text-anchor="middle">Michael Scott</text>
+
+          <rect x="212" width="96" height="26" rx="13" fill="#EFF6FF" />
+          <text x="260" y="17" class="font-sans" font-size="10" font-weight="600" fill="#2563EB" text-anchor="middle">David Miller</text>
+        </g>
+
+        <!-- Direct Join Button with Vector Camera -->
+        <g transform="translate(860, -5)">
+          <rect width="156" height="38" rx="10" fill="#2563EB" class="btn-shadow"/>
+          <g transform="translate(20, 11)">
+            <rect x="0" y="2.5" width="11" height="10" rx="2" stroke="#FFFFFF" stroke-width="1.6" fill="none"/>
+            <path d="M11 5.5L15 3V12L11 9.5V5.5Z" fill="#FFFFFF"/>
+            <text x="22" y="12" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF">Join Zoom Call</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Meeting 2 (Upcoming Tomorrow) -->
+    <g transform="translate(0, 230)">
+      <rect width="1080" height="190" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 28)">
+        <rect width="90" height="24" rx="12" fill="#F1F5F9" />
+        <text x="45" y="16" class="font-sans" font-size="10" font-weight="700" fill="#64748B" text-anchor="middle">TOMORROW</text>
+
+        <text x="105" y="17" class="font-sans" font-size="13" font-weight="700" fill="#475569">• Tomorrow, 10:00 AM – 11:00 AM</text>
+        <text x="960" y="17" class="font-sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Room ID: 901 3341 8820</text>
+      </g>
+
+      <g transform="translate(32, 70)">
+        <text x="0" y="22" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">New Employee Onboarding Orientation &amp; IT Setup</text>
+        <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Welcoming newly provisioned personnel and walking through system tools, task workflows, and leave policies.</text>
+      </g>
+
+      <g transform="translate(32, 130)">
+        <text x="0" y="18" class="font-sans" font-size="11" font-weight="700" fill="#64748B">HOST: Alex Vance (HR) • ATTENDEES: James Wilson, Sarah Jenkins</text>
+
+        <g transform="translate(850, -5)">
+          <rect width="166" height="38" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="83" y="23" class="font-sans" font-size="12" font-weight="600" fill="#0F172A" text-anchor="middle">Add to Calendar</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Meeting 3 (Upcoming Next Week) -->
+    <g transform="translate(0, 450)">
+      <rect width="1080" height="190" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 28)">
+        <rect width="90" height="24" rx="12" fill="#F1F5F9" />
+        <text x="45" y="16" class="font-sans" font-size="10" font-weight="700" fill="#64748B" text-anchor="middle">NEXT WEEK</text>
+
+        <text x="105" y="17" class="font-sans" font-size="13" font-weight="700" fill="#475569">• Monday, Oct 05, 11:30 AM – 12:30 PM</text>
+        <text x="960" y="17" class="font-sans" font-size="12" font-weight="500" fill="#64748B" text-anchor="end">Room ID: 772 1092 3144</text>
+      </g>
+
+      <g transform="translate(32, 70)">
+        <text x="0" y="22" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Q4 Departmental KPI Alignment &amp; Review</text>
+        <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Strategic session covering sprint accomplishments, attendance metrics, and upcoming project milestones.</text>
+      </g>
+
+      <g transform="translate(32, 130)">
+        <text x="0" y="18" class="font-sans" font-size="11" font-weight="700" fill="#64748B">HOST: Michael Scott • ATTENDEES: All Department Heads</text>
+
+        <g transform="translate(850, -5)">
+          <rect width="166" height="38" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="83" y="23" class="font-sans" font-size="12" font-weight="600" fill="#0F172A" text-anchor="middle">Add to Calendar</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Annotation -->
+  <g transform="translate(1280, 480)">
+    <path d="M-10 0H20" class="annotation-line" />
+    <text x="28" y="4" class="font-sans annotation-text">Zoom Coordination</text>
+    <text x="28" y="20" class="font-sans" font-size="11" fill="#64748B">Scheduled video calls</text>
+    <text x="28" y="36" class="font-sans" font-size="11" fill="#64748B">Direct join action links</text>
+  </g>
+</svg>

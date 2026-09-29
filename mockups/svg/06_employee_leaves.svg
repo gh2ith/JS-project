@@ -1,0 +1,274 @@
+<svg width="1440" height="1500" viewBox="0 0 1440 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .text-figma-title { font-weight: 700; fill: #1E293B; font-size: 18px; }
+      .text-figma-meta { font-weight: 500; fill: #64748B; font-size: 12px; }
+      .text-badge-num { font-weight: 700; fill: #FFFFFF; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .annotation-text { font-weight: 600; fill: #334155; font-size: 13px; }
+      .annotation-line { stroke: #94A3B8; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .measure-text { font-weight: 600; fill: #64748B; font-size: 11px; text-anchor: end; }
+      .measure-line { stroke: #CBD5E1; stroke-width: 1; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1440" height="1500" fill="#F8FAFC" />
+
+  <!-- Figma Header Bar -->
+  <g id="Figma-Header" transform="translate(60, 24)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" rx="4" fill="#F24E1E" />
+      <rect x="8" y="0" width="8" height="8" rx="4" fill="#FF7262" />
+      <rect x="0" y="8" width="8" height="8" rx="4" fill="#A259FF" />
+      <circle cx="12" cy="12" r="4" fill="#1ABCFE" />
+      <rect x="0" y="16" width="8" height="8" rx="4" fill="#0ACF83" />
+    </g>
+    <text x="28" y="15" class="font-sans text-figma-title">Figma Wireframe • Leave &amp; Departure Application (Employee View)</text>
+
+    <g transform="translate(780, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta" text-anchor="middle">Application Form • LocalStorage Sync</text>
+      <path d="M0 16V28M-4 24L0 28L4 24" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(1080, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta">Status Tracker Table</text>
+      <path d="M-10 7H-40" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 12-Column Grid -->
+  <g id="Figma-Grid-Columns" opacity="0.20">
+    <rect x="180" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="270" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="360" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="450" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="540" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="630" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="720" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="810" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="900" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="990" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1080" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1170" y="70" width="70" height="1400" fill="#EFF6FF" />
+  </g>
+
+  <!-- Top Navigation Bar -->
+  <g id="Navbar" transform="translate(180, 64)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    <g transform="translate(24, 16)">
+      <rect width="34" height="34" rx="8" fill="#2563EB" />
+      <path d="M10 17L15 22L24 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="44" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+    <g transform="translate(320, 25)">
+      <text x="0" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">← Back to Home</text>
+      <text x="140" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">My Profile</text>
+      <text x="240" y="14" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">Leave Requests</text>
+      <text x="370" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">My Tasks</text>
+    </g>
+    <g transform="translate(930, 14)">
+      <circle cx="18" cy="18" r="16" fill="#2563EB" />
+      <text x="18" y="22" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SJ</text>
+      <text x="42" y="23" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Sarah Jenkins</text>
+    </g>
+  </g>
+
+  <!-- Page Header -->
+  <g transform="translate(180, 160)">
+    <rect width="140" height="26" rx="13" fill="#ECFDF5" />
+    <text x="70" y="17" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">LEAVE WORKFLOW</text>
+    <text x="0" y="60" class="font-sans" font-size="28" font-weight="800" fill="#0F172A">Apply for Leave &amp; Departure</text>
+    <text x="0" y="84" class="font-sans" font-size="14" font-weight="400" fill="#64748B">Submit new absence requests to HR and monitor approval status in real-time.</text>
+  </g>
+
+  <!-- Main Grid: Left Application Form (640px) + Right Quick Balance (410px) -->
+  <g id="Leave-Form-Section" transform="translate(180, 280)">
+    
+    <!-- Left: Application Form -->
+    <rect width="640" height="490" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <g transform="translate(36, 32)">
+      <text x="0" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">New Leave Application</text>
+      <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Fill all fields accurately. Request will be submitted to HR review desk.</text>
+
+      <!-- Form Fields -->
+      <g transform="translate(0, 65)">
+        <!-- Field 1: Employee Name (Auto-selected) -->
+        <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">EMPLOYEE APPLICANT</text>
+        <rect y="22" width="568" height="42" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+        <text x="14" y="48" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Sarah Jenkins • #EMP-2041 (Frontend Engineer)</text>
+
+        <!-- Field 2: Leave Type Selector -->
+        <g transform="translate(0, 74)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">LEAVE TYPE</text>
+          <rect y="22" width="568" height="42" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Annual Paid Leave (Remaining: 14 Days)</text>
+          <path d="M540 40L545 46L550 40" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+        </g>
+
+        <!-- Field 3: Date Range Picker (2 Columns) -->
+        <g transform="translate(0, 148)">
+          <!-- Start Date -->
+          <g>
+            <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">START DATE</text>
+            <rect y="22" width="274" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+            <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">Oct 12, 2026</text>
+            <g transform="translate(242, 34)">
+              <rect width="16" height="14" rx="2" stroke="#64748B" stroke-width="1.5" fill="none"/>
+              <line x1="0" y1="4" x2="16" y2="4" stroke="#64748B" stroke-width="1.2" />
+            </g>
+          </g>
+
+          <!-- End Date -->
+          <g transform="translate(294, 0)">
+            <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">END DATE</text>
+            <rect y="22" width="274" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+            <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">Oct 15, 2026</text>
+            <g transform="translate(242, 34)">
+              <rect width="16" height="14" rx="2" stroke="#64748B" stroke-width="1.5" fill="none"/>
+              <line x1="0" y1="4" x2="16" y2="4" stroke="#64748B" stroke-width="1.2" />
+            </g>
+          </g>
+        </g>
+
+        <!-- Field 4: Reason Textarea -->
+        <g transform="translate(0, 222)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">REASON &amp; COMMENTS</text>
+          <rect y="22" width="568" height="66" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="44" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">Family event and planned travel. Code handover scheduled with Alex.</text>
+        </g>
+
+        <!-- Submit Button -->
+        <g transform="translate(0, 318)">
+          <rect width="220" height="46" rx="12" fill="#2563EB" class="btn-shadow"/>
+          <text x="110" y="28" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">✓ Submit Leave Request</text>
+
+          <rect x="236" width="120" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="296" y="28" class="font-sans" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Clear Form</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right: Balances & Guidelines Card -->
+    <g transform="translate(670, 0)">
+      <rect width="410" height="490" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 32)">
+        <text x="0" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">My Leave Balances</text>
+        <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Allocated annual entitlement for 2026 fiscal year.</text>
+
+        <!-- Balance Metrics -->
+        <g transform="translate(0, 70)">
+          <!-- Balance 1: Annual -->
+          <rect width="346" height="64" rx="12" fill="#EFF6FF" stroke="#DBEAFE" />
+          <text x="16" y="28" class="font-sans" font-size="13" font-weight="700" fill="#1E3A8A">Annual Paid Leave</text>
+          <text x="16" y="48" class="font-sans" font-size="11" font-weight="500" fill="#64748B">14 Days Remaining / 21 Total</text>
+          <text x="326" y="38" class="font-sans" font-size="20" font-weight="800" fill="#2563EB" text-anchor="end">14d</text>
+
+          <!-- Balance 2: Sick -->
+          <g transform="translate(0, 76)">
+            <rect width="346" height="64" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+            <text x="16" y="28" class="font-sans" font-size="13" font-weight="700" fill="#065F46">Sick Leave</text>
+            <text x="16" y="48" class="font-sans" font-size="11" font-weight="500" fill="#64748B">7 Days Remaining / 10 Total</text>
+            <text x="326" y="38" class="font-sans" font-size="20" font-weight="800" fill="#059669" text-anchor="end">7d</text>
+          </g>
+
+          <!-- Balance 3: Departure / Casual -->
+          <g transform="translate(0, 152)">
+            <rect width="346" height="64" rx="12" fill="#FFFBEB" stroke="#FDE68A" />
+            <text x="16" y="28" class="font-sans" font-size="13" font-weight="700" fill="#92400E">Departure &amp; Casual Hours</text>
+            <text x="16" y="48" class="font-sans" font-size="11" font-weight="500" fill="#64748B">4 Hours Remaining / 8 Total</text>
+            <text x="326" y="38" class="font-sans" font-size="20" font-weight="800" fill="#D97706" text-anchor="end">4h</text>
+          </g>
+        </g>
+
+        <!-- HR Policy Notice -->
+        <g transform="translate(0, 310)">
+          <rect width="346" height="88" rx="12" fill="#F8FAFC" stroke="#E2E8F0" />
+          <text x="16" y="24" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">ℹ Company Policy Reminder</text>
+          <text x="16" y="44" class="font-sans" font-size="11" font-weight="400" fill="#64748B">Leave requests of &gt; 3 days must be submitted at least</text>
+          <text x="16" y="58" class="font-sans" font-size="11" font-weight="400" fill="#64748B">48 hours in advance for managerial signoff.</text>
+          <text x="16" y="74" class="font-sans" font-size="11" font-weight="600" fill="#2563EB">Read full Company Policies →</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 3: MY LEAVE REQUESTS HISTORY TABLE ==================== -->
+  <g id="Leave-History-Section" transform="translate(180, 810)">
+    <rect width="1080" height="420" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <g transform="translate(36, 32)">
+      <text x="0" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">My Leave Application History</text>
+      <text x="0" y="44" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Live status updates synced directly from HR administrative decisions in LocalStorage.</text>
+
+      <!-- Table Header -->
+      <g transform="translate(0, 70)">
+        <rect width="1008" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+        <text x="24" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">REF ID</text>
+        <text x="120" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">LEAVE TYPE</text>
+        <text x="290" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">DURATION / DATES</text>
+        <text x="490" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">REASON SUMMARY</text>
+        <text x="760" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">STATUS</text>
+        <text x="910" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">HR NOTES</text>
+
+        <!-- Row 1: Approved -->
+        <g transform="translate(0, 48)">
+          <rect width="1008" height="52" fill="#FFFFFF" />
+          <line x1="0" y1="52" x2="1008" y2="52" stroke="#F1F5F9" />
+          <text x="24" y="32" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">#LV-801</text>
+          <text x="120" y="32" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Annual Leave</text>
+          <text x="290" y="32" class="font-sans" font-size="12" font-weight="500" fill="#475569">Oct 12 – Oct 15 (4 Days)</text>
+          <text x="490" y="32" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Family travel &amp; handover planned</text>
+          
+          <!-- Status Pill: Approved -->
+          <rect x="760" y="16" width="94" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+          <text x="807" y="32" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">✓ Approved</text>
+          
+          <text x="910" y="32" class="font-sans" font-size="12" font-weight="500" fill="#059669">Approved by Alex V.</text>
+        </g>
+
+        <!-- Row 2: Pending -->
+        <g transform="translate(0, 102)">
+          <rect width="1008" height="52" fill="#FFFFFF" />
+          <line x1="0" y1="52" x2="1008" y2="52" stroke="#F1F5F9" />
+          <text x="24" y="32" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">#LV-814</text>
+          <text x="120" y="32" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Early Departure</text>
+          <text x="290" y="32" class="font-sans" font-size="12" font-weight="500" fill="#475569">Nov 02 (2 Hours - 3:00 PM)</text>
+          <text x="490" y="32" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Doctor appointment</text>
+          
+          <!-- Status Pill: Pending -->
+          <rect x="760" y="16" width="94" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A" />
+          <text x="807" y="32" class="font-sans" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">• Under Review</text>
+          
+          <text x="910" y="32" class="font-sans" font-size="12" font-weight="500" fill="#D97706">Pending HR Signoff</text>
+        </g>
+
+        <!-- Row 3: Rejected -->
+        <g transform="translate(0, 156)">
+          <rect width="1008" height="52" fill="#FFFFFF" />
+          <text x="24" y="32" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">#LV-792</text>
+          <text x="120" y="32" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Unpaid Leave</text>
+          <text x="290" y="32" class="font-sans" font-size="12" font-weight="500" fill="#475569">Aug 10 – Aug 12 (3 Days)</text>
+          <text x="490" y="32" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Personal errand</text>
+          
+          <!-- Status Pill: Rejected -->
+          <rect x="760" y="16" width="94" height="24" rx="12" fill="#FEF2F2" stroke="#FECACA" />
+          <text x="807" y="32" class="font-sans" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">× Rejected</text>
+          
+          <text x="910" y="32" class="font-sans" font-size="12" font-weight="500" fill="#DC2626">Major sprint release clash</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Annotation -->
+  <g transform="translate(1280, 520)">
+    <path d="M-10 0H20" class="annotation-line" />
+    <text x="28" y="4" class="font-sans annotation-text">Leave Application Hub</text>
+    <text x="28" y="20" class="font-sans" font-size="11" fill="#64748B">Real-time status pills</text>
+    <text x="28" y="36" class="font-sans" font-size="11" fill="#64748B">Synced with HR review desk</text>
+  </g>
+</svg>

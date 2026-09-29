@@ -1,0 +1,284 @@
+<svg width="1440" height="1500" viewBox="0 0 1440 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .text-figma-title { font-weight: 700; fill: #1E293B; font-size: 18px; }
+      .text-figma-meta { font-weight: 500; fill: #64748B; font-size: 12px; }
+      .text-badge-num { font-weight: 700; fill: #FFFFFF; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .annotation-text { font-weight: 600; fill: #334155; font-size: 13px; }
+      .annotation-line { stroke: #94A3B8; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .measure-text { font-weight: 600; fill: #64748B; font-size: 11px; text-anchor: end; }
+      .measure-line { stroke: #CBD5E1; stroke-width: 1; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1440" height="1500" fill="#F8FAFC" />
+
+  <!-- Figma Header Bar -->
+  <g id="Figma-Header" transform="translate(60, 24)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" rx="4" fill="#F24E1E" />
+      <rect x="8" y="0" width="8" height="8" rx="4" fill="#FF7262" />
+      <rect x="0" y="8" width="8" height="8" rx="4" fill="#A259FF" />
+      <circle cx="12" cy="12" r="4" fill="#1ABCFE" />
+      <rect x="0" y="16" width="8" height="8" rx="4" fill="#0ACF83" />
+    </g>
+    <text x="28" y="15" class="font-sans text-figma-title">Figma Wireframe • Employee Tasks Board &amp; Solution Submission</text>
+
+    <g transform="translate(780, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta" text-anchor="middle">Personal Assigned Tasks • LocalStorage</text>
+      <path d="M0 16V28M-4 24L0 28L4 24" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(1080, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta">Solution Review Workflow</text>
+      <path d="M-10 7H-40" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 12-Column Grid -->
+  <g id="Figma-Grid-Columns" opacity="0.20">
+    <rect x="180" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="270" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="360" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="450" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="540" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="630" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="720" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="810" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="900" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="990" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1080" y="70" width="70" height="1400" fill="#EFF6FF" />
+    <rect x="1170" y="70" width="70" height="1400" fill="#EFF6FF" />
+  </g>
+
+  <!-- Top Navigation Bar -->
+  <g id="Navbar" transform="translate(180, 64)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    <g transform="translate(24, 16)">
+      <rect width="34" height="34" rx="8" fill="#2563EB" />
+      <path d="M10 17L15 22L24 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="44" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+    <g transform="translate(320, 25)">
+      <text x="0" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">← Back to Home</text>
+      <text x="140" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">My Profile</text>
+      <text x="240" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Leave Requests</text>
+      <text x="370" y="14" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">My Tasks</text>
+    </g>
+    <g transform="translate(930, 14)">
+      <circle cx="18" cy="18" r="16" fill="#2563EB" />
+      <text x="18" y="22" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SJ</text>
+      <text x="42" y="23" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Sarah Jenkins</text>
+    </g>
+  </g>
+
+  <!-- Page Header -->
+  <g transform="translate(180, 160)">
+    <rect width="130" height="26" rx="13" fill="#FFFBEB" />
+    <text x="65" y="17" class="font-sans" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">TASK BOARD</text>
+    <text x="0" y="60" class="font-sans" font-size="28" font-weight="800" fill="#0F172A">My Assigned Tasks</text>
+    <text x="0" y="84" class="font-sans" font-size="14" font-weight="400" fill="#64748B">View only tasks delegated to you by HR. Submit solutions, track approval, and inspect revision requests.</text>
+  </g>
+
+  <!-- Task Filter Pills -->
+  <g transform="translate(180, 270)">
+    <rect width="100" height="36" rx="10" fill="#2563EB" class="btn-shadow"/>
+    <text x="50" y="22" class="font-sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">All Tasks (3)</text>
+
+    <rect x="110" width="120" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+    <text x="170" y="22" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">In Progress (2)</text>
+
+    <rect x="240" width="110" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+    <text x="295" y="22" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Submitted (1)</text>
+
+    <rect x="360" width="120" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+    <text x="420" y="22" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Completed (4)</text>
+  </g>
+
+  <!-- Main Section: Left Task Cards (580px) + Right Solution Submission Drawer (470px) -->
+  <g id="Task-Workspace" transform="translate(180, 330)">
+    
+    <!-- Left Column: Task Cards Stack -->
+    <!-- Card 1 (Active / Selected) -->
+    <g transform="translate(0, 0)">
+      <rect width="580" height="230" rx="18" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" class="card-shadow" />
+      
+      <!-- Top Priority & Date Row -->
+      <g transform="translate(24, 24)">
+        <rect width="90" height="24" rx="12" fill="#FEF2F2" stroke="#FECACA" />
+        <text x="45" y="16" class="font-sans" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">• High Priority</text>
+
+        <rect x="100" width="86" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" />
+        <text x="143" y="16" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">In Progress</text>
+
+        <g transform="translate(340, 4)">
+          <rect width="14" height="12" rx="2" stroke="#D97706" stroke-width="1.5" fill="none"/>
+          <line x1="0" y1="4" x2="14" y2="4" stroke="#D97706" stroke-width="1.2" />
+          <text x="20" y="11" class="font-sans" font-size="12" font-weight="600" fill="#D97706">Due: Oct 02, 2026 (Tomorrow)</text>
+        </g>
+      </g>
+
+      <!-- Task Title & Description -->
+      <g transform="translate(24, 68)">
+        <text x="0" y="20" class="font-sans" font-size="16" font-weight="800" fill="#0F172A">Implement Responsive Navigation &amp; Hero</text>
+        <text x="0" y="42" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Build the front-end layout using Bootstrap 5.3 components. Integrate LocalStorage state</text>
+        <text x="0" y="60" class="font-sans" font-size="12" font-weight="400" fill="#64748B">so when users log in, the home services switch automatically between HR and Employee views.</text>
+      </g>
+
+      <!-- Assignee & Action -->
+      <g transform="translate(24, 165)">
+        <circle cx="14" cy="14" r="14" fill="#0F172A" />
+        <text x="14" y="18" class="font-sans" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">AV</text>
+        <text x="36" y="14" class="font-sans" font-size="11" font-weight="600" fill="#0F172A">Assigned by Alex Vance (HR Director)</text>
+        <text x="36" y="28" class="font-sans" font-size="10" font-weight="400" fill="#64748B">Created Sep 28 • ID: #TSK-401</text>
+
+        <!-- Selected indicator button -->
+        <rect x="410" width="124" height="32" rx="8" fill="#2563EB" />
+        <text x="472" y="20" class="font-sans" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Submit Solution →</text>
+      </g>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(0, 255)">
+      <rect width="580" height="210" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(24, 24)">
+        <rect width="104" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A" />
+        <text x="52" y="16" class="font-sans" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">• Med Priority</text>
+
+        <rect x="114" width="76" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" />
+        <text x="152" y="16" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">Pending</text>
+
+        <g transform="translate(380, 4)">
+          <rect width="14" height="12" rx="2" stroke="#64748B" stroke-width="1.5" fill="none"/>
+          <line x1="0" y1="4" x2="14" y2="4" stroke="#64748B" stroke-width="1.2" />
+          <text x="20" y="11" class="font-sans" font-size="12" font-weight="500" fill="#64748B">Due: Oct 06, 2026</text>
+        </g>
+      </g>
+
+      <g transform="translate(24, 68)">
+        <text x="0" y="20" class="font-sans" font-size="16" font-weight="800" fill="#0F172A">Integrate Company Policies JSON Reader</text>
+        <text x="0" y="42" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Parse the static company policies JSON file and render expandable accordions</text>
+        <text x="0" y="60" class="font-sans" font-size="12" font-weight="400" fill="#64748B">with instant keyword search filtering across code of conduct and remote rules.</text>
+      </g>
+
+      <g transform="translate(24, 150)">
+        <circle cx="14" cy="14" r="14" fill="#0F172A" />
+        <text x="14" y="18" class="font-sans" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">AV</text>
+        <text x="36" y="14" class="font-sans" font-size="11" font-weight="600" fill="#0F172A">Assigned by Alex Vance (HR Director)</text>
+        <text x="36" y="28" class="font-sans" font-size="10" font-weight="400" fill="#64748B">Created Sep 29 • ID: #TSK-408</text>
+
+        <rect x="440" width="92" height="32" rx="8" fill="#F1F5F9" />
+        <text x="486" y="20" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">View Details</text>
+      </g>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(0, 490)">
+      <rect width="580" height="210" rx="18" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(24, 24)">
+        <rect width="90" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+        <text x="45" y="16" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">• Low Priority</text>
+
+        <rect x="100" width="84" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+        <text x="142" y="16" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">✓ Submitted</text>
+
+        <g transform="translate(380, 4)">
+          <rect width="14" height="12" rx="2" stroke="#64748B" stroke-width="1.5" fill="none"/>
+          <line x1="0" y1="4" x2="14" y2="4" stroke="#64748B" stroke-width="1.2" />
+          <text x="20" y="11" class="font-sans" font-size="12" font-weight="500" fill="#64748B">Due: Oct 10, 2026</text>
+        </g>
+      </g>
+
+      <g transform="translate(24, 68)">
+        <text x="0" y="20" class="font-sans" font-size="16" font-weight="800" fill="#0F172A">Design Footer Map &amp; Direct Feedback Integration</text>
+        <text x="0" y="42" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Embed responsive Google Map container in the footer with direct contact details</text>
+        <text x="0" y="60" class="font-sans" font-size="12" font-weight="400" fill="#64748B">and connect feedback form fields directly to browser LocalStorage.</text>
+      </g>
+
+      <g transform="translate(24, 150)">
+        <circle cx="14" cy="14" r="14" fill="#0F172A" />
+        <text x="14" y="18" class="font-sans" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">AV</text>
+        <text x="36" y="14" class="font-sans" font-size="11" font-weight="600" fill="#0F172A">Assigned by Alex Vance (HR Director)</text>
+        <text x="36" y="28" class="font-sans" font-size="10" font-weight="400" fill="#64748B">Submitted • Awaiting HR Review • ID: #TSK-395</text>
+
+        <rect x="430" width="102" height="32" rx="8" fill="#ECFDF5" />
+        <text x="481" y="20" class="font-sans" font-size="12" font-weight="600" fill="#059669" text-anchor="middle">Under Review</text>
+      </g>
+    </g>
+
+    <!-- Right Column: Interactive Solution Submission Drawer (Active Task TSK-401) -->
+    <g transform="translate(610, 0)">
+      <rect width="470" height="700" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+      
+      <g transform="translate(32, 32)">
+        <rect width="130" height="24" rx="12" fill="#EFF6FF" />
+        <text x="65" y="16" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">SUBMIT SOLUTION</text>
+        <text x="0" y="55" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Task #TSK-401 Solution</text>
+        <text x="0" y="74" class="font-sans" font-size="12" font-weight="400" fill="#64748B">Submit your code work, documentation, and notes to HR.</text>
+
+        <!-- Current Status Alert -->
+        <g transform="translate(0, 95)">
+          <rect width="406" height="42" rx="10" fill="#EFF6FF" stroke="#BFDBFE" />
+          <text x="14" y="26" class="font-sans" font-size="11" font-weight="700" fill="#1D4ED8">• Status: In Progress • Solution not yet submitted to HR</text>
+        </g>
+
+        <!-- Solution Form -->
+        <g transform="translate(0, 155)">
+          <!-- Field 1: Solution Summary -->
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">SOLUTION SUMMARY / IMPLEMENTATION NOTES</text>
+          <rect y="22" width="406" height="90" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" />
+          <text x="14" y="44" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">Completed responsive Bootstrap navbar and dual hero components.</text>
+          <text x="14" y="62" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">Added dynamic auth listener that renders employee services upon login.</text>
+          <text x="14" y="80" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">All tests passing across desktop, tablet, and mobile viewport.</text>
+
+          <!-- Field 2: Repository / Deliverable Link -->
+          <g transform="translate(0, 126)">
+            <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">GITHUB REPO / DEMO URL</text>
+            <rect y="22" width="406" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+            <text x="14" y="48" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">https://github.com/junior-dev/bridgeway-hr-system</text>
+          </g>
+
+          <!-- Field 3: File Attachment / Code Snippet -->
+          <g transform="translate(0, 202)">
+            <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">DELIVERABLE ATTACHMENT</text>
+            <rect y="22" width="406" height="52" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-dasharray="4 3" />
+            <g transform="translate(100, 36)">
+              <path d="M4 12L12 4C14 2 17 2 19 4C21 6 21 9 19 11L10 20C8.5 21.5 6 21.5 4.5 20C3 18.5 3 16 4.5 14.5L13 6" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+              <text x="26" y="15" class="font-sans" font-size="12" font-weight="500" fill="#64748B">Drop code ZIP, screenshot, or click to upload</text>
+            </g>
+          </g>
+
+          <!-- Action Buttons -->
+          <g transform="translate(0, 296)">
+            <rect width="200" height="46" rx="12" fill="#2563EB" class="btn-shadow"/>
+            <text x="100" y="28" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">✓ Submit Solution to HR</text>
+
+            <rect x="212" width="110" height="46" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+            <text x="267" y="28" class="font-sans" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Save Draft</text>
+          </g>
+
+          <!-- HR Feedback Section (Simulated) -->
+          <g transform="translate(0, 370)">
+            <rect width="406" height="88" rx="12" fill="#F8FAFC" stroke="#E2E8F0" />
+            <text x="16" y="24" class="font-sans" font-size="12" font-weight="700" fill="#0F172A">HR Review Feedback History</text>
+            <text x="16" y="44" class="font-sans" font-size="11" font-weight="400" fill="#64748B">Once submitted, HR review notes (Approve / Request Changes)</text>
+            <text x="16" y="58" class="font-sans" font-size="11" font-weight="400" fill="#64748B">will instantly appear here and update your task status.</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Annotation -->
+  <g transform="translate(1280, 520)">
+    <path d="M-10 0H20" class="annotation-line" />
+    <text x="28" y="4" class="font-sans annotation-text">Task &amp; Solution Flow</text>
+    <text x="28" y="20" class="font-sans" font-size="11" fill="#64748B">Employee submits solution</text>
+    <text x="28" y="36" class="font-sans" font-size="11" fill="#64748B">Reflects in HR Review Desk</text>
+  </g>
+</svg>

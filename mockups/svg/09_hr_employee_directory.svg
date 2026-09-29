@@ -1,0 +1,316 @@
+<svg width="1440" height="1550" viewBox="0 0 1440 1550" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font-sans { font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif; }
+      .text-figma-title { font-weight: 700; fill: #1E293B; font-size: 18px; }
+      .text-figma-meta { font-weight: 500; fill: #64748B; font-size: 12px; }
+      .text-badge-num { font-weight: 700; fill: #FFFFFF; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .annotation-text { font-weight: 600; fill: #334155; font-size: 13px; }
+      .annotation-line { stroke: #94A3B8; stroke-width: 1.2; stroke-dasharray: 4 3; }
+      .measure-text { font-weight: 600; fill: #64748B; font-size: 11px; text-anchor: end; }
+      .measure-line { stroke: #CBD5E1; stroke-width: 1; }
+      .card-shadow { filter: drop-shadow(0 10px 25px rgba(15, 23, 42, 0.06)) drop-shadow(0 1px 3px rgba(15, 23, 42, 0.04)); }
+      .modal-shadow { filter: drop-shadow(0 25px 50px rgba(15, 23, 42, 0.22)); }
+      .btn-shadow { filter: drop-shadow(0 4px 14px rgba(37, 99, 235, 0.30)); }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1440" height="1550" fill="#F8FAFC" />
+
+  <!-- Figma Header Bar -->
+  <g id="Figma-Header" transform="translate(60, 24)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="8" height="8" rx="4" fill="#F24E1E" />
+      <rect x="8" y="0" width="8" height="8" rx="4" fill="#FF7262" />
+      <rect x="0" y="8" width="8" height="8" rx="4" fill="#A259FF" />
+      <circle cx="12" cy="12" r="4" fill="#1ABCFE" />
+      <rect x="0" y="16" width="8" height="8" rx="4" fill="#0ACF83" />
+    </g>
+    <text x="28" y="15" class="font-sans text-figma-title">Figma Wireframe • Employee Directory &amp; Add Employee Modal (HR View)</text>
+
+    <g transform="translate(800, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta" text-anchor="middle">HR-Restricted Registration Flow</text>
+      <path d="M0 16V28M-4 24L0 28L4 24" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+    <g transform="translate(1080, 2)">
+      <text x="0" y="10" class="font-sans text-figma-meta">Search, Filter &amp; CRUD</text>
+      <path d="M-10 7H-40" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- 12-Column Grid -->
+  <g id="Figma-Grid-Columns" opacity="0.20">
+    <rect x="180" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="270" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="360" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="450" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="540" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="630" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="720" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="810" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="900" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="990" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="1080" y="70" width="70" height="1450" fill="#EFF6FF" />
+    <rect x="1170" y="70" width="70" height="1450" fill="#EFF6FF" />
+  </g>
+
+  <!-- Top Navigation Bar -->
+  <g id="Navbar" transform="translate(180, 64)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" class="card-shadow" />
+    <g transform="translate(24, 16)">
+      <rect width="34" height="34" rx="8" fill="#2563EB" />
+      <path d="M10 17L15 22L24 12" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="44" y="24" class="font-sans" font-size="18" font-weight="800" fill="#0F172A">Bridgeway<tspan fill="#2563EB">HR</tspan></text>
+    </g>
+    <g transform="translate(300, 25)">
+      <text x="0" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">← Back to Home</text>
+      <text x="140" y="14" class="font-sans" font-size="14" font-weight="700" fill="#2563EB">Employee Directory</text>
+      <text x="290" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Leave Approvals (4)</text>
+      <text x="440" y="14" class="font-sans" font-size="14" font-weight="500" fill="#475569">Task Review (2)</text>
+    </g>
+    <g transform="translate(930, 14)">
+      <circle cx="18" cy="18" r="16" fill="#0F172A" />
+      <text x="18" y="22" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">HR</text>
+      <text x="42" y="23" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Alex Vance</text>
+    </g>
+  </g>
+
+  <!-- Page Header & Action Bar -->
+  <g transform="translate(180, 160)">
+    <rect width="160" height="26" rx="13" fill="#EFF6FF" />
+    <text x="80" y="17" class="font-sans" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">WORKFORCE DIRECTORY</text>
+    <text x="0" y="60" class="font-sans" font-size="28" font-weight="800" fill="#0F172A">Employee Directory &amp; Staff Management</text>
+    <text x="0" y="84" class="font-sans" font-size="14" font-weight="400" fill="#64748B">Manage company personnel, filter by department, inspect profiles, and register new employees.</text>
+
+    <!-- Top Action: Add New Employee Button (Exclusively in HR hand!) -->
+    <g transform="translate(880, 20)">
+      <rect width="200" height="46" rx="12" fill="#2563EB" class="btn-shadow"/>
+      <text x="100" y="28" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">+ Add New Employee</text>
+    </g>
+  </g>
+
+  <!-- Filter & Search Bar -->
+  <g transform="translate(180, 270)">
+    <rect width="1080" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <!-- Search Bar with Vector Magnifier -->
+    <g transform="translate(20, 12)">
+      <rect width="360" height="42" rx="10" fill="#F8FAFC" stroke="#E2E8F0" />
+      <circle cx="24" cy="20" r="5" stroke="#64748B" stroke-width="1.6" fill="none"/>
+      <line x1="28" y1="24" x2="33" y2="29" stroke="#64748B" stroke-width="1.6" stroke-linecap="round"/>
+      <text x="42" y="26" class="font-sans" font-size="13" font-weight="500" fill="#64748B">Search by name, email, or role...</text>
+    </g>
+
+    <!-- Department Selector Dropdown -->
+    <g transform="translate(400, 12)">
+      <rect width="220" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+      <text x="16" y="26" class="font-sans" font-size="12" font-weight="600" fill="#0F172A">Department: All (6)</text>
+      <path d="M194 24L198 28L202 24" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Status Selector Dropdown -->
+    <g transform="translate(640, 12)">
+      <rect width="180" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+      <text x="16" y="26" class="font-sans" font-size="12" font-weight="600" fill="#0F172A">Status: Active</text>
+      <path d="M154 24L158 28L162 24" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <g transform="translate(840, 12)">
+      <rect width="100" height="42" rx="10" fill="#F1F5F9" />
+      <text x="50" y="26" class="font-sans" font-size="12" font-weight="600" fill="#475569" text-anchor="middle">Reset</text>
+    </g>
+  </g>
+
+  <!-- Main Employee Directory Table Card -->
+  <g id="Employee-Table-Container" transform="translate(180, 360)">
+    <rect width="1080" height="450" rx="20" fill="#FFFFFF" stroke="#E2E8F0" class="card-shadow" />
+    
+    <!-- Table Header Row -->
+    <g transform="translate(24, 24)">
+      <rect width="1032" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+      <text x="24" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">EMPLOYEE NAME &amp; ID</text>
+      <text x="280" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">DEPARTMENT</text>
+      <text x="440" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">JOB TITLE</text>
+      <text x="620" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">PHONE / EMAIL</text>
+      <text x="800" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">STATUS</text>
+      <text x="940" y="26" class="font-sans" font-size="11" font-weight="700" fill="#64748B">ACTIONS</text>
+
+      <!-- Row 1: Sarah Jenkins -->
+      <g transform="translate(0, 48)">
+        <rect width="1032" height="60" fill="#FFFFFF" />
+        <line x1="0" y1="60" x2="1032" y2="60" stroke="#F1F5F9" />
+        
+        <circle cx="34" cy="30" r="16" fill="#2563EB" />
+        <text x="34" y="34" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SJ</text>
+        <text x="60" y="26" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Sarah Jenkins</text>
+        <text x="60" y="42" class="font-sans" font-size="11" font-weight="500" fill="#64748B">#EMP-2041</text>
+
+        <text x="280" y="35" class="font-sans" font-size="12" font-weight="600" fill="#475569">Technology</text>
+        <text x="440" y="35" class="font-sans" font-size="12" font-weight="600" fill="#0F172A">Frontend Engineer</text>
+        
+        <text x="620" y="26" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">+962 7 9123 4567</text>
+        <text x="620" y="42" class="font-sans" font-size="11" font-weight="400" fill="#64748B">sarah.jenkins@corp</text>
+
+        <rect x="800" y="18" width="76" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+        <text x="838" y="34" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">• Active</text>
+
+        <text x="940" y="35" class="font-sans" font-size="12" font-weight="700" fill="#2563EB">Edit • View • <tspan fill="#DC2626">Del</tspan></text>
+      </g>
+
+      <!-- Row 2: Michael Scott -->
+      <g transform="translate(0, 110)">
+        <rect width="1032" height="60" fill="#FFFFFF" />
+        <line x1="0" y1="60" x2="1032" y2="60" stroke="#F1F5F9" />
+        
+        <circle cx="34" cy="30" r="16" fill="#0D9488" />
+        <text x="34" y="34" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">MS</text>
+        <text x="60" y="26" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Michael Scott</text>
+        <text x="60" y="42" class="font-sans" font-size="11" font-weight="500" fill="#64748B">#EMP-2015</text>
+
+        <text x="280" y="35" class="font-sans" font-size="12" font-weight="600" fill="#475569">Sales &amp; Accounts</text>
+        <text x="440" y="35" class="font-sans" font-size="12" font-weight="600" fill="#0F172A">Regional Director</text>
+        
+        <text x="620" y="26" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">+962 7 9888 1122</text>
+        <text x="620" y="42" class="font-sans" font-size="11" font-weight="400" fill="#64748B">michael.scott@corp</text>
+
+        <rect x="800" y="18" width="86" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A" />
+        <text x="843" y="34" class="font-sans" font-size="11" font-weight="700" fill="#D97706" text-anchor="middle">• On Leave</text>
+
+        <text x="940" y="35" class="font-sans" font-size="12" font-weight="700" fill="#2563EB">Edit • View • <tspan fill="#DC2626">Del</tspan></text>
+      </g>
+
+      <!-- Row 3: David Miller -->
+      <g transform="translate(0, 172)">
+        <rect width="1032" height="60" fill="#FFFFFF" />
+        <line x1="0" y1="60" x2="1032" y2="60" stroke="#F1F5F9" />
+        
+        <circle cx="34" cy="30" r="16" fill="#7C3AED" />
+        <text x="34" y="34" class="font-sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">DM</text>
+        <text x="60" y="26" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">David Miller</text>
+        <text x="60" y="42" class="font-sans" font-size="11" font-weight="500" fill="#64748B">#EMP-2038</text>
+
+        <text x="280" y="35" class="font-sans" font-size="12" font-weight="600" fill="#475569">Design &amp; UX</text>
+        <text x="440" y="35" class="font-sans" font-size="12" font-weight="600" fill="#0F172A">Lead Product Designer</text>
+        
+        <text x="620" y="26" class="font-sans" font-size="12" font-weight="500" fill="#0F172A">+962 7 9456 7890</text>
+        <text x="620" y="42" class="font-sans" font-size="11" font-weight="400" fill="#64748B">david.miller@corp</text>
+
+        <rect x="800" y="18" width="76" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" />
+        <text x="838" y="34" class="font-sans" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">• Active</text>
+
+        <text x="940" y="35" class="font-sans" font-size="12" font-weight="700" fill="#2563EB">Edit • View • <tspan fill="#DC2626">Del</tspan></text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== ADD EMPLOYEE MODAL (SIMULATION OVERLAY) ==================== -->
+  <g id="Add-Employee-Modal" transform="translate(380, 840)">
+    <!-- Modal Card Container -->
+    <rect width="680" height="640" rx="24" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" class="modal-shadow" />
+
+    <!-- Modal Header -->
+    <path d="M0 24C0 10.7452 10.7452 0 24 0H656C669.255 0 680 10.7452 680 24V60H0V24Z" fill="#EFF6FF" />
+    <path d="M0 60H680" stroke="#DBEAFE" stroke-width="1" />
+    <text x="32" y="38" class="font-sans" font-size="16" font-weight="800" fill="#0F172A">+ Provision &amp; Register New Employee Account</text>
+    <text x="648" y="36" class="font-sans" font-size="18" font-weight="700" fill="#64748B" text-anchor="end">×</text>
+
+    <!-- Modal Body -->
+    <g transform="translate(32, 80)">
+      <text x="0" y="16" class="font-sans" font-size="12" font-weight="400" fill="#64748B">
+        Creates a new employee record and login credentials in browser LocalStorage.
+      </text>
+
+      <!-- Grid of Form Inputs -->
+      <!-- Row 1: Full Name & Email -->
+      <g transform="translate(0, 35)">
+        <g>
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">FULL NAME</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">James Wilson</text>
+        </g>
+        <g transform="translate(320, 0)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">COMPANY EMAIL</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">james.wilson@bridgeway.corp</text>
+        </g>
+      </g>
+
+      <!-- Row 2: Department & Position -->
+      <g transform="translate(0, 115)">
+        <g>
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">DEPARTMENT</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="600" fill="#0F172A">Technology &amp; Engineering</text>
+          <path d="M272 40L276 44L280 40" stroke="#64748B" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+        </g>
+        <g transform="translate(320, 0)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">JOB POSITION / TITLE</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">Backend .NET Developer</text>
+        </g>
+      </g>
+
+      <!-- Row 3: Initial Password & Confirm Password (Clean SVG Vector Circles - 0 HTML entities) -->
+      <g transform="translate(0, 195)">
+        <g>
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">TEMPORARY PASSWORD</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <!-- 8 Crisp SVG Circles -->
+          <circle cx="24" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="36" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="48" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="60" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="72" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="84" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="96" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="108" cy="43" r="3.5" fill="#0F172A"/>
+        </g>
+        <g transform="translate(320, 0)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">CONFIRM PASSWORD</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <!-- 8 Crisp SVG Circles -->
+          <circle cx="24" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="36" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="48" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="60" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="72" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="84" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="96" cy="43" r="3.5" fill="#0F172A"/>
+          <circle cx="108" cy="43" r="3.5" fill="#0F172A"/>
+        </g>
+      </g>
+
+      <!-- Row 4: Phone & Joining Date -->
+      <g transform="translate(0, 275)">
+        <g>
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">PHONE NUMBER</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">+962 7 9234 5678</text>
+        </g>
+        <g transform="translate(320, 0)">
+          <text x="0" y="14" class="font-sans" font-size="11" font-weight="700" fill="#334155">START / JOINING DATE</text>
+          <rect y="22" width="295" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+          <text x="14" y="48" class="font-sans" font-size="13" font-weight="500" fill="#0F172A">Oct 05, 2026</text>
+        </g>
+      </g>
+
+      <!-- Modal Footer Action Buttons -->
+      <g transform="translate(0, 370)">
+        <rect width="220" height="48" rx="12" fill="#2563EB" class="btn-shadow"/>
+        <text x="110" y="29" class="font-sans" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">✓ Register &amp; Save Employee</text>
+
+        <rect x="236" width="100" height="48" rx="12" fill="#FFFFFF" stroke="#E2E8F0" />
+        <text x="286" y="29" class="font-sans" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Cancel</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Annotation -->
+  <g transform="translate(1280, 500)">
+    <path d="M-10 0H20" class="annotation-line" />
+    <text x="28" y="4" class="font-sans annotation-text">HR-Only Onboarding</text>
+    <text x="28" y="20" class="font-sans" font-size="11" fill="#64748B">Registration moved exclusively</text>
+    <text x="28" y="36" class="font-sans" font-size="11" fill="#64748B">into HR Admin modal</text>
+  </g>
+</svg>
